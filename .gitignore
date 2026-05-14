@@ -2,3 +2,12 @@
 node_modules/
 *.log
 .env
+
+# Compiled output
+dist/
+
+# Database files
+server/data/
+
+# TypeScript incremental build info
+*.tsbuildinfo
