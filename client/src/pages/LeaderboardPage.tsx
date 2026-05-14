@@ -66,7 +66,7 @@ export default function LeaderboardPage() {
                 <td>{entry.wins}</td>
                 <td>{entry.losses}</td>
                 <td>{entry.draws}</td>
-                <td>{(entry.win_rate * 100).toFixed(1)}%</td>
+                <td>{entry.win_rate.toFixed(1)}%</td>
               </tr>
             ))}
           </tbody>

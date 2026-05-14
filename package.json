@@ -1,0 +1,12 @@
+{
+  "name": "tic-tac-toe-fullstack",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Tic-Tac-Toe full-stack integration tests",
+  "scripts": {
+    "test": "npm run test:server && npm run test:client",
+    "test:server": "cd server && npm test",
+    "test:client": "cd client && npm test",
+    "build": "cd server && npm run build && cd ../client && npm run build"
+  }
+}
