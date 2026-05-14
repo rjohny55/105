@@ -8,3 +8,6 @@ dist/
 
 # Database files
 server/data/
+
+# TypeScript incremental build info
+*.tsbuildinfo
