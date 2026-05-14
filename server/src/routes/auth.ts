@@ -4,9 +4,9 @@ import jwt from 'jsonwebtoken';
 import { getDb } from '../db';
 import { authMiddleware } from '../middleware/auth';
 import { User, AuthResponse, JwtPayload } from '../types';
+import { JWT_SECRET } from '../config';
 
 const router = Router();
-const JWT_SECRET = process.env.JWT_SECRET || 'default-secret';
 const SALT_ROUNDS = 10;
 
 // POST /api/auth/register
